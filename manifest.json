@@ -1,0 +1,26 @@
+{short_name: "kk", name: "kk", lang: "zh-CN",…}
+background_color: "#ffffff"
+description: "kk的个人网站。学生，编程小白，热爱编程。"
+dir: "auto"
+display: "standalone"
+icons: [{src: "/android-icon-192x192-seochecker-manifest-115.png", type: "image/png", sizes: "192x192",…},…]
+0: {src: "/android-icon-192x192-seochecker-manifest-115.png", type: "image/png", sizes: "192x192",…}
+1: {src: "/android-chrome-512x512.png", type: "image/png", sizes: "512x512"}
+2: {src: "/apple-icon-180x180-seochecker-manifest-115.png", type: "image/png", sizes: "180x180"}
+3: {src: "/apple-icon-152x152-seochecker-manifest-115.png", type: "image/png", sizes: "152x152"}
+4: {src: "/apple-icon-144x144-seochecker-manifest-115.png", type: "image/png", sizes: "144x144"}
+5: {src: "/apple-icon-120x120-seochecker-manifest-115.png", type: "image/png", sizes: "120x120"}
+6: {src: "/apple-icon-114x114-seochecker-manifest-115.png", type: "image/png", sizes: "114x114"}
+7: {src: "/favicon-96x96-seochecker-manifest-115.png", type: "image/png", sizes: "96x96"}
+8: {src: "/apple-icon-76x76-seochecker-manifest-115.png", type: "image/png", sizes: "76x76"}
+9: {src: "/apple-icon-72x72-seochecker-manifest-115.png", type: "image/png", sizes: "72x72"}
+10: {src: "/apple-icon-60x60-seochecker-manifest-115.png", type: "image/png", sizes: "60x60"}
+11: {src: "/apple-icon-57x57-seochecker-manifest-115.png", type: "image/png", sizes: "57x57"}
+12: {src: "/favicon-32x32-seochecker-manifest-115.png", type: "image/png", sizes: "32x32"}
+13: {src: "/favicon-16x16-seochecker-manifest-115.png", type: "image/png", sizes: "16x16"}
+id: "/"
+lang: "zh-CN"
+name: "kk"
+short_name: "kk"
+start_url: "/"
+theme_color: "#76d8ff"

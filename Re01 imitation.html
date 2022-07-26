@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head lang="en">
+<head>
+  <title>kk</title>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge=Google" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="keywords" content="entertainment">
+    <meta name="description" content="This is a website about entertainment and some personal introduction">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/favicon.ico">
+    <style>
+            body {
+              margin: 0;
+              height: 100vh;
+              background-color: #eee;
+            }
+             /* *{
+              border: 1px solid black;
+            }   */
+            .yinying{
+              box-shadow:rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+                rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+            }
+            .flex {
+              display: flex;
+            }
+            .baise {
+              background-color: white;
+            }
+            .flex1 {
+              flex: 1;
+            }
+            .column {
+              flex-direction: column;
+            }
+            .mg8{
+              margin: 8px;
+            }
+            .mgr8{
+              margin-right: 8px;
+            }
+            .mgt8{
+              margin-top: 8px;
+            }
+            .daohang{
+              padding: 10px 150px;padding-left: 35px;
+              border-bottom: 1px solid rgb(190,190,190);
+              font-size: 14px;
+              color: #666;
+              
+            }
+            @media (max-width:600px) {
+      .cebian{
+        display: none;
+             }
+             .neirong{
+              flex-direction: column;
+             }
+             .shujuqu{
+              flex-direction: column;
+             }
+             .youqu{
+              margin-left: 8px;
+             }
+             .shuju{
+              margin: 0 0 8px;
+              flex: auto;
+             }
+            }
+            .neirong::-webkit-scrollbar{
+              display: none;
+            }
+    </style>
+    
+</head>
+
+  <body class="flex">
+    <!--侧边栏-->
+    <div
+      style="width: 200px z-index：3"
+      class="cebian flex column baise yinying"
+    >
+      <!--头像栏-->
+      <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+          border-right: 1px solid #999;
+        "
+        class="flex"
+      >
+        <img
+          style="border-radius: 50%"
+          src="pdx.png"
+          alt="kk"
+          width="40px"
+          height="40px"
+        />
+        <div style="margin-left: 10px">小渡</div>
+      </div>
+      <!--导航栏-->
+      <div class="flex1">
+        <div class="daohang"><b><p><a href="https://www.baidu.com/">我的简介</a></p></b></div>
+        <div class="daohang"><b><p>我的爱好</p></b></div>
+        <div class="daohang"><b><p>导航</p></b></div>
+        <div class="daohang"><b><p>导航</p></b></div>
+        <div class="daohang"><b><p>导航</p></b></div>
+        <div class="daohang"><b><p>其他</p></b></div>
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div style="height: 60px; z-index: 2" class="baise yinying"></div>
+      <!--内容区-->
+      <div style="overflow: auto" class="neirong flex1 flex">
+        <!--左区-->
+        <div style="flex: 3" class="flex column mg8">
+          <!--数据区-->
+          <div class="flex shujuqu">
+            <!--数据块-->
+            <div
+              style="height: 100px"
+              class="shuju flex1 baise mgr8 yinying"
+            ></div>
+            <div
+              style="height: 100px"
+              class="shuju flex1 baise mgr8 yinying"
+            ></div>
+            <div
+              style="height: 100px"
+              class="shuju flex1 baise mgr8 yinying"
+            ></div>
+            <div
+              style="height: 100px"
+              class="shuju flex1 baise mgr8 yinying"
+            ></div>
+          </div>
+          <!--列表区-->
+          <div class="flex column">
+            <!--列表项-->
+            <div style="height: 160px" class="baise mgt8 yinying"></div>
+            <div style="height: 160px" class="baise mgt8 yinying"></div>
+            <div style="height: 160px" class="baise mgt8 yinying"></div>
+            <div style="height: 160px" class="baise mgt8 yinying"></div>
+            <div style="height: 160px" class="baise mgt8 yinying"></div>
+            <div style="height: 160px" class="baise mgt8 yinying"></div>
+          </div>
+        </div>
+        <!--右区-->
+        <div style="flex: 1" class="youqu flex column mgr8 mgt8">
+          <!--提示区-->
+          <div style="height: 2000px" class="baise yinying"></div>
+          <!--消息区-->
+          <div style="height: 4000px" class="baise mgt8 yinying"></div>
+          <!--广告栏-->
+          <div style="height: 3000px" class="baise mgt8 yinying"</div>
+        </div>
+      </div>
+    </div>
+     <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  </body>
+</html>
